@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title> LUXELUSH - @yield('title')</title>
+	<title> Book Store - @yield('title')</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -232,7 +232,7 @@
 			<div style="flex-wrap: unset !important;" class="row">
 				<div id="logo" class="col-md-3 col-sm-12 col-xs-12">
 					<a style="text-decoration: none;" href="{{ asset('/') }}">
-					    <img style="width: 150px !important; margin-top: 10px;" src="img/home/logo-mp.png" alt="">
+					    <img style="width: 90px !important; margin-top: 10px;" src="img/home/logo_bookstore.png" alt="">
 					</a>
 				</div>
 
@@ -286,25 +286,19 @@
 
 					<div id="banner-l" class="text-center">
 						<div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-1.jpg" alt="" class="img-thumbnail"></a>
+							<a href="{{ asset('/') }}"><img src="img/home/banner_1.webp" alt="" class="img-thumbnail"></a>
 						</div>
-						<div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-2.webp" alt="" class="img-thumbnail"></a>
+						{{--  <div class="banner-l-item">
+							<a href="{{ asset('/') }}"><img src="img/home/banner_2.webp" alt="" class="img-thumbnail"></a>
+						</div>  --}}
+                        <div class="banner-l-item">
+							<a href="{{ asset('/') }}"><img src="img/home/banner_3.jpg" alt="" class="img-thumbnail"></a>
 						</div>
                         <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-3.webp" alt="" class="img-thumbnail"></a>
+							<a href="{{ asset('/') }}"><img src="img/home/banner_4.webp" alt="" class="img-thumbnail"></a>
 						</div>
                         <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-4.webp" alt="" class="img-thumbnail"></a>
-						</div>
-                        <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-5.webp" alt="" class="img-thumbnail"></a>
-						</div>
-                        <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-6.webp" alt="" class="img-thumbnail"></a>
-						</div>
-                        <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner-7.webp" alt="" class="img-thumbnail"></a>
+							<a href="{{ asset('/') }}"><img src="img/home/banner_5.webp" alt="" class="img-thumbnail"></a>
 						</div>
 					</div>
 				</div>
@@ -319,18 +313,22 @@
 								<li data-target="#demo" data-slide-to="0" class="active"></li>
 								<li data-target="#demo" data-slide-to="1"></li>
 								<li data-target="#demo" data-slide-to="2"></li>
+								<li data-target="#demo" data-slide-to="3"></li>
 							</ul>
 
 							<!-- The slideshow -->
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide_1.jpg" alt="Banner" >
+									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide-1.webp" alt="Banner" >
 								</div>
 								<div class="carousel-item">
-									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide_2.jpg" alt="Banner">
+									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide-2.webp" alt="Banner">
 								</div>
 								<div class="carousel-item">
-									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide.jpg" alt="Banner" >
+									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide-3.webp" alt="Banner" >
+								</div>
+                                <div class="carousel-item">
+									<img style="border-radius: 5px;" width="900px" height="400px" src="img/home/slide-4.webp" alt="Banner" >
 								</div>
 							</div>
 
@@ -361,18 +359,18 @@
                     <div class="row">
                         <div id="logo" class="col-md-3 col-sm-12 col-xs-12">
 							<a style="text-decoration: none;" href="{{ asset('/') }}">
-                                <img style="width: 170px !important;" src="img/home/logo-mp.png" alt="">
+                                <img style="width: 120px !important;" src="img/home/logo_bookstore.png" alt="">
                             </a>
                         </div>
                         <div id="about" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>About us</h3>
-                            <p class="text-justify"> LUXELUSH thành lập năm 2024. Chúng tôi là cửa hàng bán mỹ phẩm uy tín hàng đầu Việt Nam cũng như trên toàn thế giới.</p>
+                            <p class="text-justify"> Book Store thành lập năm 2024. Chúng tôi là cửa hàng bán sách uy tín hàng đầu Việt Nam cũng như trên toàn thế giới.</p>
                         </div>
                         <div id="hotline" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>Hotline</h3>
                             <p>Phone1: (+84) 934155611</p>
                             <p>Phone2: (+84) 523514521</p>
-                            <p>Email: luxelush@gmail.com</p>
+                            <p>Email: bookstore@gmail.com</p>
                         </div>
                         <div id="contact" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>Contact Us</h3>

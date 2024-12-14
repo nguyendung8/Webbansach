@@ -345,6 +345,7 @@ nav a#pull {
 	border: none;
 	padding: 0;
 	border-radius: 0;
+	height: 142px !important;
 }
 .product-item:hover .marsk{
 	display: block;
